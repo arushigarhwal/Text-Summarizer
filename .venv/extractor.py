@@ -13,3 +13,4 @@ def extract_from_pdf(pdf_file):
     for page in doc:
         text += page.get_text()
     return text
+
